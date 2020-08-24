@@ -1,7 +1,7 @@
 ---
 title: Images
 category: Media
-order: 1
+order: 2
 ---
 
 Share images with your friends! Send photos and pictures from your computer, phone or camera.
@@ -23,7 +23,7 @@ Supported types:
 * BMP
 * GIF
 
-Unsupported types:s
+Unsupported types:
 
 * SVG
 * WEBP
