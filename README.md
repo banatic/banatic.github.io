@@ -1,4 +1,4 @@
 
-#private github page for study
-github page using [github](https://github.com/pmarsceill/just-the-docs/pulls)
+# private github page for study
+github page using [just-the-docs](https://github.com/pmarsceill/just-the-docs/pulls)
 
