@@ -75,11 +75,4 @@ AND, OR, Inverter, Buffer, NAND, NOR, XOR, XNOR 등등의 회로가 존재한다
 변수의 개수가 연산이 힘들만큼 클 경우 경우 발견법(Heuristic)으로 풀 수 밖에 없다.
 
 ## 카르노 맵을 이용한 간소화
-
-
-
-
-
-
-
-
+진리표에서 변수의 각 조합을 **민텀(minterm)**이라고 한다.
