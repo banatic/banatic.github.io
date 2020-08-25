@@ -2,6 +2,7 @@
 layout: default
 title: Color
 parent: Utilities
+has_children: true
 ---
 
 # Color Utilities
