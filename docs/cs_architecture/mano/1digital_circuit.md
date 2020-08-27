@@ -210,4 +210,4 @@ S = x ⊕ y ⊕ z, C = xy + (x ⊕ y)z
 ## 순차회로
 
 작성중..
-slack test commit2
+slack test commit3
