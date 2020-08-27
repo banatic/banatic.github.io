@@ -6,6 +6,11 @@ layout: table_wrappers
 
 <html lang="{{ site.lang | default: 'ko-KR' }}">
 {% include head.html %}
+<head>
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
+</head>
 
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
