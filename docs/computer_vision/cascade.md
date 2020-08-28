@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 캐스케이드 분류기
-nav_order: 1
+nav_order: 3
 has_children: true
 parent: 컴퓨터비전
 ---
