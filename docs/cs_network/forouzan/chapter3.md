@@ -4,6 +4,7 @@ title: 3장 물리층 개요
 nav_order: 1
 parent: 데이터통신과 네트워크
 grand_parent: 컴퓨터네트워크
+use_math: true
 ---
 
 # **물리층 개요**
@@ -36,7 +37,7 @@ grand_parent: 컴퓨터네트워크
 
 서로 역수 관계이다
 
-$$frequency = 1/period$$
+$frequency = 1/period$
 
 ## 양극단
 
@@ -57,9 +58,9 @@ $$frequency = 1/period$$
 
 단순 신호가 한 주기 동안 진행할 수 있는 거리
 
-파장 = (전파속도) * (주기) = (전파속도)/(주파수)
+$파장 = (전파속도) * (주기) = (전파속도)/(주파수)$
 
-$$wave length = c/f$$
+$wave length = c/f$
 
 ## 복합 신호(composite signal)
 
@@ -95,7 +96,7 @@ n배수에 따라 제 n조파라고 부른다
 
 bit length = propagtion speed * bit duration
 
-$$bitlength = propagationspeed*bitduration$$
+$bitlength = propagationspeed*bitduration$
 
 ## 디지털 신호 전송
 
