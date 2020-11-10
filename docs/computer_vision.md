@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 컴퓨터비전
+title: __컴퓨터비전__
 nav_order: 5
 has_children: true
 ---

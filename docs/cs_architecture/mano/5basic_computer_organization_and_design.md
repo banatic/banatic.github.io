@@ -1,14 +1,14 @@
 ---
 layout: default
-title: 3장 데이터의 표현
-nav_order: 3
+title: 5장 기본 컴퓨터의 구조와 설계
+nav_order: 5
 parent: Mano의 컴퓨터시스템구조
 grand_parent: 컴퓨터시스템구조
 use_math: true
-last_modified_date: 2020-08-29T07:18:08+0900
+last_modified_date: 2020-09-02T05:34:12+0900
 ---
 
-# **데이터의 표현**
+# **기본 컴퓨터의 구조와 설계**
 {: .no_toc }
 
 ## Table of contents
@@ -18,4 +18,3 @@ last_modified_date: 2020-08-29T07:18:08+0900
 {:toc}
 
 ---
-
