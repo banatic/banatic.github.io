@@ -61,22 +61,22 @@ function initSearch() {
       
       lunr.tokenizer.separator = /[\s/]+/
 
-      var index = lunr(function(){
-        this.ref('id');
-        this.field('title', { boost: 200 });
-        this.field('content', { boost: 2 });
-        this.field('relUrl');
-        this.metadataWhitelist = ['position']
+      var index = new lunr.index;
+        index.ref('id');
+        index.field('title', { boost: 200 });
+        index.field('content', { boost: 2 });
+        index.field('relUrl');
+        index.metadataWhitelist = ['position']
 
         for (var i in docs) {
-          this.add({
+          index.add({
             id: i,
             title: docs[i].title,
             content: docs[i].content,
             relUrl: docs[i].relUrl
           });
         }
-      });
+    
 
       searchLoaded(index, docs);
     } else {
@@ -441,5 +441,4 @@ jtd.onReady(function(){
 });
 
 })(window.jtd = window.jtd || {});
-
 
