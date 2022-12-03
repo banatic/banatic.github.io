@@ -20,7 +20,7 @@ title                    : "moomin"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "무민"
-description              : "공부용 블로그."
+description              : "공부용 블로그"
 url                      : "https://banatic.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "banatic/banatic.github.io"
@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "moomin"
+  avatar           : "/assets/img/profile/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "**CS education**"
+  location         : 
+  email            : "moominda@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -289,4 +289,6 @@ defaults:
       read_time: true
       comments: true # true
       share: false
-      related: false
+      related: true
+      mathjax: true
+      sidebar_main: true

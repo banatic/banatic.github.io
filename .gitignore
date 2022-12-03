@@ -30,3 +30,6 @@ _site
 
 # Git templete file
 .gittemplete.txt
+
+# Personal Memo
+__site_directory.md

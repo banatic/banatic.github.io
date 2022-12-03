@@ -3,9 +3,9 @@ title:  "[Jekyll] title"
 excerpt: "Excerpt"
 
 categories:
-  - Blog
+  - Cpp
 tags:
-  - [Blog, jekyll, Github, Git]
+  - [Blog, jekyll, Github, Git, Cpp]
 
 toc: true
 toc_sticky: true
