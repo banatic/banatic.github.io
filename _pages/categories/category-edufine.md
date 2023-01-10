@@ -1,7 +1,7 @@
 ---
 title: "에듀파인"
 layout: archive
-permalink: categories/edufine
+permalink: categories/에듀파인
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.edufine %}
+{% assign posts = site.categories['에듀파인'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

@@ -28,8 +28,5 @@ codekit-config.json
 _asset_bundler_cache
 _site
 
-# Git templete file
-.gittemplete.txt
-
 # Personal Memo
 __site_directory.md

@@ -3,9 +3,9 @@ title:  "에듀파인 품의 수정"
 excerpt: "결재가 올라간 품의 수정법"
 
 categories:
-  - edufine
+  - 에듀파인
 tags:
-  - [에듀파인, 품의]
+  - [품의]
 
 toc: true
 toc_sticky: true

@@ -3,9 +3,9 @@ title:  "예산 한도를 초과했을 때"
 excerpt: "결재 시 \"예산한도(목별금액)를 초과했습니다\" 오류"
 
 categories:
-  - edufine
+  - 에듀파인
 tags:
-  - [에듀파인, 품의]
+  - [품의, 예산]
 
 toc: true
 toc_sticky: true

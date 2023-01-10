@@ -26,38 +26,35 @@
   <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
       <li>
-            📂 <span style="font-family:'pretendard';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
-      </li>
-      <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">C/C++</span>
+        <!-- <span class="nav__sub-title">C/C++</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
                         <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
+            </ul> -->
         <span class="nav__sub-title">학교 업무</span>
           <ul>
             {% for category in site.categories %}
-                {% if category[0] == "edufine" %}
-                    <li><a href="/categories/edufine" class="">에듀파인 ({{category[1].size}})</a></li>
+                {% if category[0] == "에듀파인" %}
+                    <li><a href="/categories/에듀파인" class="">에듀파인 ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
           </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "neis" %}
-                        <li><a href="/categories/neis" class="">나이스 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/나이스" class="">나이스 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            <span class="nav__sub-title">통계학</span>
+            <span class="nav__sub-title">수학</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "MML" %}
-                        <li><a href="/categories/MML" class="">MML ({{category[1].size}})</a></li>
+                    {% if category[0] == "선형대수학" %}
+                        <li><a href="/categories/선형대수학" class="">선형대수학 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

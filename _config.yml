@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "moomin"
   avatar           : "/assets/img/profile/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**CS education**"
+  bio              : "CS education"
   location         : 
   email            : "moominda@naver.com"
   links:
@@ -289,6 +289,6 @@ defaults:
       read_time: true
       comments: true # true
       share: false
-      related: true
+      related: false
       mathjax: true
       sidebar_main: true
